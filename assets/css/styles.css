@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Rubik', sans-serif;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #ccc;
+}
+
+.social, .control {
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+}
+
+.social__icon {
+    margin: 5px;
+}
+
+.social__select, .control__select {
+    text-decoration: none;
+    color:#000;
+    padding-left: 20px;
+}
+
+.social a:hover,.control > a:hover {
+    color:#2568ef;
+}
+
+/* navbar */
+
