@@ -240,7 +240,7 @@ to {
 
 /* new */
 .news__picture {
-    background-image: url('../img/news/ofhlstldxzk-1140x694.jpg');
+    background-image: url("../img/news/ofhlstldxzk-1140x694.jpg");
     min-height: 460px;
     background-size: cover;
     background-repeat: no-repeat;
