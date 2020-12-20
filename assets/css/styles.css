@@ -15,6 +15,10 @@ html {
     border-bottom: solid 1px #ccc;
 }
 
+.social .social__icon:hover {
+    cursor: pointer;
+}
+
 .social, .control {
     height: 44px;
     line-height: 44px;
@@ -162,11 +166,21 @@ to {
 
 .post .post__title {
     font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+#info .post__list {
+    padding: 15px;
+    min-height: 185px;
 }
 
 .post__list {
-    padding: 15px;
+    padding: 8px;
+    font-weight: 800;
+    line-height: 28px;
+    font-size: 22px;
 }
+
 
 .post--bublbe .post__content__point {
     background-color:#994db1;
@@ -174,7 +188,7 @@ to {
 }
 
 .post--skyblue .post__content__point {
-    background-color:  #2568ef;
+    background-color:  #2590ed;
 
 }
 
@@ -201,6 +215,7 @@ to {
     padding: 4px 12px;
     font-size: 14px;
     margin:0px 10px 10px 0px;
+    font-weight: 400;
 }
 
 .post__content__point {
@@ -216,14 +231,13 @@ to {
 }
 
 .post__title {
-    font-size:18px;
+    font-size:19px;
     margin: 10px 0px;
-   
 }
 
 .post__datetime {
     font-size: 10px;
-    color:#444;
+    color:#9f9f9f
 }
 
 .post__datetime_time__point{
@@ -247,7 +261,12 @@ to {
 }
 
 #news {
-    color:#fff;
+
+}
+
+.post__description {
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .post__description--white,
@@ -256,13 +275,15 @@ to {
     color:white;
 }
 
-.post__content--whitte {
+.post__content--white {
     background-color: #fff;
     color: #000;
 }
 
 .news__item {
     position: relative;
+    color:#fff;
+    padding-right: 45px;
 }
 
 
@@ -280,7 +301,147 @@ to {
     right: 0;
     left: 0;
     bottom: 0;
+    margin-right:45px;
+}
+
+.news__list__title {
+    padding-bottom: 15px;
+    margin :  0px 10px 0px;
 }
 
 
+#news .news__list__title {
+    border-bottom: solid 1px #ccc;;
+}
 
+
+.news__list__auhor {
+    list-style: none;
+    text-decoration: none;
+    color: #111;
+}
+
+
+/* technology */
+
+#technology .news__list__title {
+
+    margin: 0;
+    border: solid 0px #fff;
+}
+
+.technology__week {
+    font-size: 12px;
+}
+
+.technology__card{
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+
+.technology__card__img {
+    background-repeat: no-repeat;
+    min-height: 234px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: 0px;
+}
+
+.technology__card__img--1 {
+    background-image: url("../img/card/1.jpg");
+}
+
+.technology__card__img--2 {
+    background-image: url("../img/card/2.jpg");
+}
+
+.technology__card__img--3 {
+    background-image: url("../img/card/3.jpg");
+}
+
+.technology__card__img--4 {
+    background-image: url("../img/card/4.jpg");
+    background-size: cover;
+    background-position: 0px;
+}
+
+.technology__card__img--5 {
+    background-image: url("../img/card/5.jpg");
+}
+
+.technology__card__img--6 {
+    background-image: url("../img/card/6.jpg");
+}
+
+.technology__card__content {
+    margin-top: 20px;
+}
+
+
+#technology .post__list {
+    padding: 0px 0px 0px 0px;
+}
+
+#technology .technology__card__content {
+    padding-right: 50px ;
+}
+
+.technology__load {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.technology__load__iem {
+    padding: 14px 40px;
+    border-radius: 5px;
+    border: solid 0px #fff;
+    color:#fff;
+    background-color: #2568ef;
+    font-size: 14px;
+}
+
+
+#art .news__picture {
+    background-image: url("../img/news/ofhlstldxzk-1140x694.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#art .news__item {
+    padding: 20px;
+
+}
+
+#art .news__modal {
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+#art .post__title {
+    font-size: 34px;
+    line-height: 44px;
+    padding: 0px 15px;
+}
+
+#art .post__datetime,
+#art .post__content {
+    margin: 0px 15px;
+    border-radius: 5px;
+}
+
+#art .news__picture {
+    border-radius: 8px;
+}
+
+#art .news__picture--1 {
+    background-image: url("../img/art/1.jpg");
+}
+
+#art .news__picture--2 {
+    background-image: url("../img/art/2.jpg");
+}
