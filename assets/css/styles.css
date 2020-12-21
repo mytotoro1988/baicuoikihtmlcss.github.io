@@ -173,7 +173,6 @@ to {
 }
 
 #info .post__list {
-    padding: 15px;
     min-height: 185px;
 }
 
@@ -287,7 +286,6 @@ to {
 .news__item {
     position: relative;
     color:#fff;
-    padding-right: 45px;
 }
 
 
@@ -305,7 +303,6 @@ to {
     right: 0;
     left: 0;
     bottom: 0;
-    margin-right:45px;
     border-radius: 8px;
 }
 
@@ -340,7 +337,6 @@ to {
 }
 
 .technology__card{
-    padding: 0px 20px;
     margin-top: 50px;
 }
 
@@ -388,7 +384,7 @@ to {
 }
 
 #technology .technology__card__content {
-    padding-right: 50px ;
+    padding-right: 20px ;
 }
 
 .technology__load {
@@ -415,13 +411,8 @@ to {
 
 }
 
-#art .news__item {
-    padding: 20px;
-
-}
 
 #art .news__modal {
-    margin: 20px;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 8px;
 
@@ -522,13 +513,10 @@ to {
 }
 
 #travel .news__item {
-    padding: 20px;
+    margin-bottom: 30px;
 }
 
-#travel .news__modal {
-    margin: 20px;
 
-}
 #travel .news__picture {
     min-height: 400px;
 }
@@ -538,4 +526,114 @@ to {
 } 
 #travel .post__list {
     margin: 0px 10px -15px;
+}
+
+.technology__load__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#catagories .news__picture {
+    background-image: url("../img/news/ofhlstldxzk-1140x694.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#videos .news__picture {
+    background-image: url("../img/news/ofhlstldxzk-1140x694.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:0px;
+    height: 500px;
+    min-height:250px;
+    
+}
+
+#videos .video__news__item .news__picture {
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:0px;
+    height: 250px;
+    
+}
+
+
+
+#videos .news__modal{
+   
+    border-radius:0px;
+    
+}
+
+#videos .news__item {
+    padding: 0px;
+}
+
+#videos .news__modal {
+    margin: 0px;
+
+}
+
+#catagories .news__picture {
+    min-height: 280px;
+}
+
+
+
+
+
+#catagories .news__picture--1{
+    background-image: url("../img/catagories/1.jpg");
+}
+
+#catagories .news__picture--2{
+    background-image: url("../img/catagories/2.jpg");
+}
+
+#catagories .news__picture--3{
+    background-image: url("../img/catagories/3.jpg");
+}
+
+#catagories .news__picture--4{
+    background-image: url("../img/catagories/4.jpg");
+}
+
+
+
+#videos .news__picture--1{
+    background-image: url("../img/video/1.jpg");
+}
+
+#videos .news__picture--2{
+    background-image: url("../img/video/2.jpg");
+}
+
+#videos .news__picture--3{
+    background-image: url("../img/video/3.jpg");
+}
+
+
+/* posts */
+
+.posts__technology__card__content {
+    display:flex;
+    align-items:center;
+    text-align: center;
+}
+
+#posts .post__title {
+    font-size:34px;
+    padding:0px 30px;
+    line-height:40px;
+
+}
+
+#posts .posts__technology__card__content_bottom .post__title {
+    font-size:15px;
+    padding:0px 0px;
+    line-height:20px;
+
 }
