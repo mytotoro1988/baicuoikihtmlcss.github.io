@@ -632,8 +632,228 @@ to {
 }
 
 #posts .posts__technology__card__content_bottom .post__title {
-    font-size:15px;
+    font-size:16px;
     padding:0px 0px;
-    line-height:20px;
+    line-height:14px;
+
+}
+
+#posts .technology__card__img {
+    min-height: 107px;
+    height:107px;
+}
+
+#posts .technology__card__img--1{
+    background-image: url("../img/posts/1.jpg");
+}
+
+#posts .technology__card__img--2{
+    background-image: url("../img/posts/2.jpg");
+}
+
+#posts .technology__card__content--middle .post__title {
+    font-size:18px;
+    padding:0px 0px;
+    line-height:18px;
+}
+
+
+
+#posts .slected__card__img--1 {
+    background-image: url("../img/video/1.jpg");
+}
+
+#posts .slected__card__img {
+    background-repeat: no-repeat;
+    min-height: 400px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: 0px;
+    height:400px;
+}
+
+#posts .technology__card {
+    margin:0;
+    height: 580px;
+}
+
+
+#posts .technology__card__content--end .post__title {
+    font-size:18px;
+    padding:0px 0px;
+    line-height:18px;
+}
+
+/* trending */
+#trending .technology__card__img--1 {
+    background-image: url("../img/trend/1.jpg");
+}
+
+
+#trending .technology__card__img--2 {
+    background-image: url("../img/trend/2.jpg");
+}
+
+#trending .technology__card__img--3 {
+    background-image: url("../img/trend/3.jpg");
+}
+
+#trending .technology__card__img--4 {
+    background-image: url("../img/trend/4.jpg");
+}
+
+#trending .technology__card__img--5 {
+    background-image: url("../img/trend/5.jpg");
+}
+#trending .technology__card__img--6 {
+    background-image: url("../img/trend/6.jpg");
+}
+
+#trending .technology__card__img--7 {
+    background-image: url("../img/trend/7.jpg");
+}
+
+#trending .technology__card__img--8 {
+    background-image: url("../img/trend/8.jpg");
+}
+
+#trending .technology__card__img--9 {
+    background-image: url("../img/trend/9.jpg");
+}
+
+#trending .technology__card__img--10 {
+    background-image: url("../img/trend/10.jpg");
+}
+
+#trending .technology__card__img--11 {
+    background-image: url("../img/trend/11.jpg");
+}
+
+#trending .technology__card__img--12 {
+    background-image: url("../img/trend/12.jpg");
+}
+
+#trending .technology__card__img--13 {
+    background-image: url("../img/trend/13.jpg");
+}
+
+#trending .technology__card__img--14 {
+    background-image: url("../img/trend/14.jpg");
+}
+
+
+#trending  .technology__card__img--15 {
+    background-image: url("../img/trend/15.jpg");
+}
+
+/* about */
+
+#footer {
+    background-color:#13181c;
+    color:#fff;
+    padding-bottom: 50px;
+}
+.footer__about {
+    padding:0x 10px;
+     
+}
+.footer__about__title {
+    margin:100px 0px 30px 0px;
+}
+
+.footer__about__content {
+    margin-bottom:30px;
+
+}
+
+.footer__about__list {
+    list-style: none;
+}
+
+.footer__about__list__item {
+    margin: 15px 0px;
+    color:#768c8e;
+}
+
+.footer__about__content {
+    color:#fff;
+
+}
+
+.footer__form {
+   background-color: #2b3033
+}
+
+.footer__about__input {
+    display:block;
+}
+
+.footer__form {
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__about__input {
+    padding:12px 20px;
+    margin-bottom: 20px;
+    border-radius:6px;
+    outline: solid 1px none;;
+    font-size:15px;
+    outline: none;;
+}
+
+.footer__about__content {
+    margin-top:20px
+}
+
+#footer .footer__table .technology__load__iem {
+    margin-bottom : 40px;
+    width: 100%;
+}
+
+#footer .footer__form {
+    border-radius:5px;
+}
+
+.footer__table {
+    width: 282px;
+}
+
+.footer__about__input {
+    width: 100%;
+}
+
+.footer_info {
+    padding: 30px 0px;
+}
+
+#owlslide .technology__card__img--1 {
+    background-image: url("../img/owl/1.jpg");
+    background-size: contain ;
+}
+
+#owlslide .technology__card__img--2 {
+    background-image: url("../img/owl/2.jpg");
+    background-size: contain ;
+}
+
+
+#owlslide .technology__card__img--3 {
+    background-image: url("../img/owl/3.jpg");
+    background-size: contain ;
+}
+
+#owlslide .technology__card__img--4 {
+    background-image: url("../img/owl/4.jpg");
+    background-size: contain ;
+}
+
+#owlslide .technology__card__img--5 {
+    background-image: url("../img/owl/5.jpg");
+    background-size: contain ;
+}
+
+#owlslide .technology__card__img {
 
 }
