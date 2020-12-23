@@ -18,3 +18,24 @@
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
 }
+
+.border {
+    border-bottom: solid 1px #ccc;
+}
+
+.white {
+    color:white;
+}
+
+.pad2 {
+    padding-bottom:20px ;
+}
+
+.padr2 {
+     margin-bottom: 0px;
+     margin-right:20px ;
+}
+
+#mar4 {
+    margin-top: 40px;
+}
