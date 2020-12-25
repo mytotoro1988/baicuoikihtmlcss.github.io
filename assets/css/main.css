@@ -16,9 +16,6 @@
 }
 
 .border {
-<<<<<<< HEAD
-    border-bottom: solid 1px #ccc;;
-=======
     border-bottom: solid 1px #ccc;
 }
 
@@ -37,5 +34,7 @@
 
 #mar4 {
     margin-top: 40px;
->>>>>>> 6e7acdf72f6ea7a57d081961c1389ad65d12c9e4
+}
+.hover-link { 
+    color:#2568ef;
 }
