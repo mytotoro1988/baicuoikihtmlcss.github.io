@@ -78,6 +78,46 @@ to {
 }
 
 
+/* topcontent */
+#topcontent
+{
+    background-image:url("../img/header/1.jpg");
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+}
+
+.topcontent__content {
+    display:flex;
+    justify-content:center;
+    padding:16.5px 0px;
+    color:#fff;
+}
+
+
+.topcontent__content__first {
+    background-color: #4CC493;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.topcontent__content__second {
+    font-size:15px;
+    line-height:24px;
+}
+
+.topcontent__content__third {
+    margin:0px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height:24px;
+}
+
+.topcontent__content__third__icon {
+    font-size:10px;
+}
 /* nav */
 .nav-sub {
     position: relative;
@@ -184,6 +224,73 @@ to {
     margin-top: 2px;
     top:5%;
 }
+/* slider */
+
+.owl-carousel, .owl-carousel .owl-item {
+    margin-top: -25px;
+}
+
+#slider {
+    margin-bottom: 60px;
+}
+
+#slider .post__list {
+    padding: 8px;
+    font-weight: 800;
+    line-height: 40px;
+    top: 24%;
+    position: relative;
+    left: 8%;
+    width:600px;
+}
+
+#slider .post__list .post__title {
+    color:white;
+    font-size: 37px;
+}
+
+#slider .post__title__behind {
+    background-color: yellow;
+    color:#000;
+}
+
+#slider .post__datetime {
+    font-size:13px;
+}
+
+#slider .technology__card__img--1{
+    background-image: url("../img/slider/1.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    min-height: 600px;
+    border-radius: 0px;
+    margin:0px -10px;
+
+
+}
+
+#slider .technology__card__img--2{
+    background-image: url("../img/slider/2.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    min-height: 600px;
+    border-radius: 0px;
+    margin:0px -10px;
+
+
+}
+
+#slider .technology__card__img--3{
+    background-image: url("../img/slider/3.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    min-height: 600px;
+    margin:0;
+    padding:0;
+    border-radius: 0px;
+
+}
+
 
 /* post */
 .post {
@@ -195,6 +302,11 @@ to {
 .post .post__title {
     font-family: 'Nunito', sans-serif;
     font-weight: 800;
+}
+
+/* #info */
+#info {
+    margin-bottom:50px;
 }
 
 #info .post__list {
@@ -321,6 +433,15 @@ to {
 
 }
 
+.technology__card--model {
+    top:50px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 .news__modal {
     background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
@@ -436,6 +557,9 @@ to {
 
 }
 
+#art .technology__week {
+    margin-bottom: 40px;
+}
 
 #art .news__modal {
     background-color: rgba(0, 0, 0, 0.3);
@@ -494,6 +618,7 @@ to {
 
 /* selected */
 
+
 #slected .border {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -503,7 +628,6 @@ to {
     margin-bottom: 40px;
 
 }
-
 #slected .slected__card__img {
     background-image: url("../img/card/1.jpg");
 
@@ -546,8 +670,6 @@ to {
     margin-top: 40px;
 }
 
-#travel .news__picture{
-}
 
 #travel .news__picture--1{
     background-image: url("../img/travel/1.jpg");
@@ -574,7 +696,7 @@ to {
 }
 
 #travel .news__item {
-    margin-bottom: 30px;
+    margin:60px 0px  30px 0px;
 }
 
 
@@ -912,6 +1034,7 @@ background-position: 50%;
     outline: solid 1px none;;
     font-size:15px;
     outline: none;;
+    border:solid 1px #fff;
 }
 
 .footer__about__content {
@@ -937,6 +1060,27 @@ background-position: 50%;
 
 .footer_info {
     padding: 30px 0px;
+}
+
+
+/* owlslide */
+
+#owlslide {
+    margin-top:30px;
+    padding:40px 0px;
+    background-color: #eee;
+    margin-bottom: 70px;
+}
+
+#owlslide .news__list__title {
+    font-size:20px;
+}
+
+
+
+#owlslide .news__list__title__des {
+    padding: 0px 30px;
+
 }
 
 #owlslide .technology__card__img--1 {
@@ -968,3 +1112,44 @@ background-position: 50%;
 #owlslide .technology__card__img {
 
 }
+
+#slider .owl-carousel .owl-nav button.owl-next,  .owl-carousel button.owl-dot { 
+    position: absolute;
+    font-size: 50px !important;
+    top:50%;
+    color:white !important;
+    right:30px;
+    outline:transparent;
+
+
+}
+
+#slider .owl-carousel .owl-nav button.owl-prev,  .owl-carousel button.owl-dot  {
+    position: absolute;
+    font-size: 50px !important;
+    top:50%;
+    color:white !important;
+    left:30px;
+    outline:transparent;
+}
+
+.footer_info {
+    display: flex;
+    justify-content:space-between;
+    color:#ccc;
+    border-top: solid 1px #444;
+    margin-top:80px;
+}
+
+.footer_info span {
+    color:#fff;
+}
+
+.footer_info__icon i {
+    padding: 0px 15px;
+}
+
+.footer_info__icon i:last-child {
+    padding: 0px 35px 0px 15px;
+}
+
