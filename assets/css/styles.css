@@ -50,6 +50,8 @@ html {
     box-sizing: border-box;
 }
 
+
+
 .abcd {
     width: 100px;
     height: 100px;
@@ -77,6 +79,29 @@ to {
 
 
 /* nav */
+.nav-sub {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-sub__demo {
+    position: absolute;
+    list-style: none;
+    background-color: #ccc;
+    padding: 0px 30px;
+    z-index: 11;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left:-20px;
+    border-radius: 5px;
+}
+
+.nav-sub__demo__item {
+    display: inline;
+    min-width: 200px;
+}
 
 .navbar {
     display: flex;
