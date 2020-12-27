@@ -1,0 +1,97 @@
+
+#travel-slected .technology__card__img--1 {
+    background-image: url("../img/travel-img/topcontent/1.jpg");
+    height: 700px;
+}
+
+#travel-slected .technology__card {
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px;
+    
+}
+
+#travel-slected .technology__card__img--2 {
+    background-image: url("../img/travel-img/topcontent/2.jpg");
+}
+
+#travel-slected .technology__card__img--3 {
+    background-image: url("../img/travel-img/topcontent/3.jpg");
+}
+
+#travel-slected .technology__card__img--4 {
+    background-image: url("../img/travel-img/topcontent/4.jpg");
+}
+
+#travel-slected .technology__card__content--head .post__title {
+    font-size: 30px;
+}
+
+.travel-slected__right {
+    margin-left: 60px;
+}
+
+#latest2 .technology__card__img--1{
+    background-image: url("../img/travel-img/lastpost2/1.jpg");
+}
+
+#latest2 .technology__card__img--2{
+    background-image: url("../img/travel-img/lastpost2/2.jpg");
+}
+
+
+#latest2 .technology__card__img--3{
+    background-image: url("../img/travel-img/lastpost2/3.jpg");
+}
+
+#latest2 .technology__card__img--4{
+    background-image: url("../img/travel-img/lastpost2/4.jpg");
+}
+
+#latest2 .technology__card__img--5{
+    background-image: url("../img/travel-img/lastpost2/5.jpg");
+}
+
+#latest2 .technology__card__img--6{
+    background-image: url("../img/travel-img/lastpost2/6.jpg");
+}
+
+
+#recommended .technology__card__img {
+    height: 140px;
+    min-height: 140px;
+}
+#recommended .technology__card__img--1 {
+    background-image: url("../img/travel-img/recommend/1.jpg");
+    border-radius: 5px;
+}
+
+#recommended .technology__card__img--2 {
+    background-image: url("../img/travel-img/recommend/2.jpg");
+}
+
+#recommended .technology__card__img--3 {
+    background-image: url("../img/travel-img/recommend/3.jpg");
+}
+
+#recommended .technology__card__img--4 {
+    background-image: url("../img/travel-img/recommend/4.jpg");
+}
+
+#recommended .technology__card__img--5 {
+    background-image: url("../img/travel-img/recommend/5.jpg");
+}
+
+#recommended .technology__card__img--6 {
+    background-image: url("../img/travel-img/recommend/6.jpg");
+}
+
+#recommended .technology__card__img--7 {
+    background-image: url("../img/travel-img/recommend/7.jpg");
+}
+
+#recommended .technology__card__img--8 {
+    background-image: url("../img/travel-img/recommend/8.jpg");
+}
+

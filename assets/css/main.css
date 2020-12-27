@@ -38,3 +38,96 @@
 .hover-link { 
     color:#2568ef;
 }
+
+
+.technology__card__img::after {
+    content: "";
+    border-top:solid 16px #ff3366;
+    border-left:solid 16px #ff3366;
+    border-right:solid 16px white;
+    border-bottom:solid 16px white;
+    position: absolute;
+    z-index: 1;
+    bottom:-36px;
+    right: -36px;
+}
+
+.technology__card__img {
+    overflow: hidden;
+}
+
+.news__picture {
+    overflow: hidden;
+
+}
+
+.technology__card__img:hover .mask2 {
+    bottom:-1px;
+    right: -1px;
+    transition: all linear .2s;
+    position: absolute;
+    z-index:1;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+
+}
+
+.news__picture:hover .mask2 {
+    bottom:-1px;
+    right: -1px;
+    transition: all linear .2s;
+    position: absolute;
+    z-index:1;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+
+}
+
+.news__picture:hover .mask2 {
+    bottom:-1px;
+    right: -1px;
+    transition: all linear .2s;
+    position: absolute;
+    z-index:1;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+
+}
+
+.mask:hover .technology__card__img::after{
+    bottom:0px;
+    right: 0px;
+    transition: all linear .2s;
+    
+}
+
+.mask:hover .news__picture::after{
+    bottom:0px;
+    right: 0px;
+    transition: all linear .2s;
+    
+}
+
+.news__item:hover .news__title {
+    transition: all linear .15s;
+    bottom: 45px;
+
+}
+.news__item:hover .news__modal{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    transition: all linear .15s;
+}
+.pl-0 {
+    padding-left: 0px;
+}
+
+.pr-0 {
+    padding-right: 0px;
+}
+
+
+
+
